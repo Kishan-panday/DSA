@@ -22,7 +22,7 @@ void insertatmiddle(struct node* head,int data,int index){
         p=p->next;
         i++;
     }
-    newnode ->next = p->next;
+    newnode ->next= p->next ;
     p->next = newnode;
 }
 
@@ -41,6 +41,5 @@ int main(){
     third ->next = NULL;
     insertatmiddle( head,35,2);
     printlinkedlist(head);
-    
     return 0 ;
 }
