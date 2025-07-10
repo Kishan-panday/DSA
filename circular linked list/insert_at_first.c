@@ -24,7 +24,7 @@ void printlinkedlist(struct node*head){
 struct node * insert(struct node *head,int data){
     struct node *newnode = (struct node*)malloc(sizeof(struct node));
      if (head == NULL) {
-        newnode->next = newnode; // Points to itself
+        newnode->next = newnode; 
         return newnode;
     }
     newnode ->data =data;
