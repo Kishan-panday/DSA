@@ -28,7 +28,7 @@ struct node * insert(struct node* head,int data,int index){
     while (i!= index-1)
     {
        p = p->next;
-       i++;
+       i++
     }
     new->next = p->next;
     p->next = new;
