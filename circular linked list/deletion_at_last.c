@@ -19,7 +19,7 @@ void print(struct node*head){
 struct node*delete(struct node*head){
     struct node *p=head;
     struct node *q= p->next;
-    while(q!=head){
+    while(q->next!=head){
         p=p->next;
         q=q->next;
     }
