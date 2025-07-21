@@ -39,8 +39,8 @@ int main(){
         }
         printf("Pushed element is:  %d\n",s->arr[s->top]);
     }
+    //   poped
       int value;
-      //   poped
         for (int i = 0; i < s->size; i++)
     {
     
