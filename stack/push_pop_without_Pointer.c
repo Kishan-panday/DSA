@@ -1,6 +1,4 @@
 #include<stdio.h>
-
-
 int top=-1;
 int isEmpty(){
     if (top==-1)
@@ -20,31 +18,13 @@ int main(){
     int n;
     printf("Enter n:");
     scanf("%d",&n);
-   
     int arr[n];
-//     for (int i = 0; i < n; i++)
-//     {
-//         scanf("%d",&arr[i]);
-//     }
-//     for (int i = 0; i < n; i++)
-//     {
-//         printf("%d\n",arr[i]);
-//     }
-//     isEmpty();
-//     isFull(10);
-
-//     return 0;
-
-// }
-
 for (int i = 0; i < n; i++) {
         int val;
         printf("Enter value to push: ");
         scanf("%d", &val);
-
         if (isFull(n)) {
             printf("Stack overflow!\n");
-           
         } else {
             top++;
             arr[top] = val;
