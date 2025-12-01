@@ -1,4 +1,4 @@
-// package linked_java;
+package linked_java;
 
 public class insert_at_last {
     class Node{
@@ -20,7 +20,7 @@ public class insert_at_last {
                 temp = temp.next;
             }
             temp.next= newNode;
-            // newnNode.next=null;
+           
         }
     
     public void print(){

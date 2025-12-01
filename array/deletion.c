@@ -5,7 +5,7 @@ void display(int arr[],int size){
     }
 }
  int deletion(int arr[],int index,int capacity,int size){
-  
+   
     for(int  i = index ; i<size-1;i++){
         arr[i]= arr[i+1];
     }

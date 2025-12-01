@@ -1,3 +1,4 @@
+package linked_java;
 public class insert_at_first{
     class Node{
         int data;

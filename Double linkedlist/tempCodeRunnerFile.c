@@ -1,2 +1,1 @@
-
-    return head;
+head

@@ -30,6 +30,7 @@ for (int i = 0; i < n; i++) {
             arr[top] = val;
             printf("Pushed %d\n", val);
         }
+        
     }
 
     // Print current stack
